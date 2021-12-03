@@ -1,0 +1,172 @@
+object Item2: TItem2
+  Left = 0
+  Top = 0
+  Caption = 'Problem 2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 625.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 40.000000000000000000
+    TextSettings.Font.StyleExt = {04070000000000000004000000}
+    TextSettings.FontColor = claDarkcyan
+    TextSettings.HorzAlign = Center
+    Text = 'PROBLEM 2'
+    TabOrder = 15
+  end
+  object pWait: TCircle
+    Position.X = 80.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object pInside: TCircle
+    Position.X = 280.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object pDone: TCircle
+    Position.X = 472.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object tStart: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 55.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Start'
+  end
+  object tChange: TButton
+    Position.X = 376.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 55.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Change'
+  end
+  object InsideEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 24
+    Position.X = 288.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  object DoneEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 25
+    Position.X = 480.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  object Label4: TLabel
+    Position.X = 440.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Done'
+    TabOrder = 6
+  end
+  object labelinside: TLabel
+    Position.X = 248.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Inside'
+    TabOrder = 10
+  end
+  object label: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Wait'
+    TabOrder = 13
+  end
+  object WaitEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 18
+    Position.X = 96.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  object Label2: TLabel
+    Position.X = 96.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Wait'
+    TabOrder = 12
+  end
+  object Label3: TLabel
+    Position.X = 288.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Inside'
+    TabOrder = 9
+  end
+  object labeldone: TLabel
+    Position.X = 480.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Done'
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Position.X = 280.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Set Marking'
+  end
+  object pWait2: TLabel
+    Position.X = 104.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '0'
+    TabOrder = 22
+  end
+  object pInside2: TLabel
+    Position.X = 304.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '0'
+    TabOrder = 21
+  end
+  object pDone2: TLabel
+    Position.X = 496.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '0'
+    TabOrder = 20
+  end
+end

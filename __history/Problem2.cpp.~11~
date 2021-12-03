@@ -1,0 +1,50 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "Problem2.h"
+#include "petri_net.h"
+#include "petri_net.cpp"
+#include <string>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TItem2 *Item2;
+Net n;
+//---------------------------------------------------------------------------
+__fastcall TItem2::TItem2(TComponent* Owner)
+	: TForm(Owner)
+{
+	pWait2->Text = WaitEdit->Text;
+	 pInside2->Text = InsideEdit->Text;
+	 pDone2->Text = DoneEdit->Text;
+
+    string places[] = {"pWait", "pInside", "pDone"};
+    string trans[] = {"tStart", "tChange"};
+    string arcs[] = {"pWait->tStart",
+                     "tStart->pInside",
+                     "pInside->tChange",
+                     "tChange->pDone"};
+    int nP = sizeof(places) / sizeof(places[0]);
+    int nT = sizeof(trans) / sizeof(trans[0]);
+    int nA = sizeof(arcs) / sizeof(arcs[0]);
+
+    n.addPlaces(places, nP);
+    n.addTransitions(trans, nT);
+    n.addArcs(arcs, nA);
+
+    // Initial marking
+    // change stage
+    // Fix no dead lock
+
+	int problem = 2;
+	 vector<int> input;
+	input.push_back(WaitEdit->Text.ToInt());
+	input.push_back(InsideEdit->Text.ToInt());
+	input.push_back(DoneEdit->Text.ToInt());
+
+	n.setMarking(input);
+}
+//---------------------------------------------------------------------------
+

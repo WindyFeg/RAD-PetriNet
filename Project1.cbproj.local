@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/03 09:01:12.000.315,=C:\Users\pc\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/12/03 09:01:13.000.026,=C:\Users\pc\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/03 09:01:46.000.648,C:\Users\pc\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\pc\Desktop\PetriNet\Unit1.cpp</Transaction>
+    <Transaction>2021/12/03 09:01:46.000.648,C:\Users\pc\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\pc\Desktop\PetriNet\Unit1.fmx</Transaction>
+    <Transaction>2021/12/03 09:01:46.000.648,C:\Users\pc\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\pc\Desktop\PetriNet\Unit1.h</Transaction>
+    <Transaction>2021/12/03 09:02:00.000.731,C:\Users\pc\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\pc\Desktop\PetriNet\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/03 09:02:02.000.654,C:\Users\pc\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\pc\Desktop\PetriNet\Project1.cbproj</Transaction>
+    <Transaction>2021/12/03 09:02:29.000.122,=C:\Users\pc\Desktop\PetriNet\Unit2.cpp</Transaction>
+    <Transaction>2021/12/03 09:03:57.000.387,=C:\Users\pc\Desktop\PetriNet\Unit3.cpp</Transaction>
+    <Transaction>2021/12/03 09:04:07.000.643,C:\Users\pc\Desktop\PetriNet\Unit2.cpp=</Transaction>
+    <Transaction>2021/12/03 09:04:29.000.691,=C:\Users\pc\Desktop\PetriNet\Unit3.cpp</Transaction>
+    <Transaction>2021/12/03 09:05:22.000.658,=C:\Users\pc\Desktop\PetriNet\Unit3.cpp</Transaction>
+    <Transaction>2021/12/03 09:06:46.000.713,=C:\Users\pc\Desktop\PetriNet\Unit2.cpp</Transaction>
+    <Transaction>2021/12/03 09:08:21.000.643,C:\Users\pc\Desktop\PetriNet\Unit2.cpp=</Transaction>
+    <Transaction>2021/12/03 09:13:00.000.497,=C:\Users\pc\Desktop\PetriNet\Unit2.cpp</Transaction>
+    <Transaction>2021/12/03 09:15:57.000.649,C:\Users\pc\Desktop\PetriNet\Unit1.fmx=C:\Users\pc\Desktop\PetriNet\Main.fmx</Transaction>
+    <Transaction>2021/12/03 09:15:57.000.649,C:\Users\pc\Desktop\PetriNet\Unit1.h=C:\Users\pc\Desktop\PetriNet\Main.h</Transaction>
+    <Transaction>2021/12/03 09:15:57.000.649,C:\Users\pc\Desktop\PetriNet\Unit1.cpp=C:\Users\pc\Desktop\PetriNet\Main.cpp</Transaction>
+    <Transaction>2021/12/03 09:16:10.000.726,C:\Users\pc\Desktop\PetriNet\Unit2.cpp=C:\Users\pc\Desktop\PetriNet\Problem1.cpp</Transaction>
+    <Transaction>2021/12/03 09:16:10.000.726,C:\Users\pc\Desktop\PetriNet\Unit2.fmx=C:\Users\pc\Desktop\PetriNet\Problem1.fmx</Transaction>
+    <Transaction>2021/12/03 09:16:10.000.726,C:\Users\pc\Desktop\PetriNet\Unit2.h=C:\Users\pc\Desktop\PetriNet\Problem1.h</Transaction>
+    <Transaction>2021/12/03 09:29:35.000.334,=C:\Users\pc\Desktop\PetriNet\Unit2.cpp</Transaction>
+    <Transaction>2021/12/03 09:29:48.000.848,C:\Users\pc\Desktop\PetriNet\Unit2.h=C:\Users\pc\Desktop\PetriNet\Problem2.h</Transaction>
+    <Transaction>2021/12/03 09:29:48.000.848,C:\Users\pc\Desktop\PetriNet\Unit2.cpp=C:\Users\pc\Desktop\PetriNet\Problem2.cpp</Transaction>
+    <Transaction>2021/12/03 09:29:48.000.848,C:\Users\pc\Desktop\PetriNet\Unit2.fmx=C:\Users\pc\Desktop\PetriNet\Problem2.fmx</Transaction>
+    <Transaction>2021/12/03 09:29:54.000.789,=C:\Users\pc\Desktop\PetriNet\Unit3.cpp</Transaction>
+    <Transaction>2021/12/03 09:30:02.000.630,=C:\Users\pc\Desktop\PetriNet\Unit4.cpp</Transaction>
+    <Transaction>2021/12/03 09:30:12.000.912,C:\Users\pc\Desktop\PetriNet\Unit3.fmx=C:\Users\pc\Desktop\PetriNet\Problem3.fmx</Transaction>
+    <Transaction>2021/12/03 09:30:12.000.912,C:\Users\pc\Desktop\PetriNet\Unit3.h=C:\Users\pc\Desktop\PetriNet\Problem3.h</Transaction>
+    <Transaction>2021/12/03 09:30:12.000.912,C:\Users\pc\Desktop\PetriNet\Unit3.cpp=C:\Users\pc\Desktop\PetriNet\Problem3.cpp</Transaction>
+    <Transaction>2021/12/03 09:30:20.000.070,C:\Users\pc\Desktop\PetriNet\Unit4.cpp=C:\Users\pc\Desktop\PetriNet\Problem4.cpp</Transaction>
+    <Transaction>2021/12/03 09:30:20.000.070,C:\Users\pc\Desktop\PetriNet\Unit4.h=C:\Users\pc\Desktop\PetriNet\Problem4.h</Transaction>
+    <Transaction>2021/12/03 09:30:20.000.070,C:\Users\pc\Desktop\PetriNet\Unit4.fmx=C:\Users\pc\Desktop\PetriNet\Problem4.fmx</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Main.cpp"/>
+    <File Path="Main.cpp"/>
+    <File Path="Main.fmx"/>
+    <File Path="Main.h"/>
+    <File Path="Problem1.cpp"/>
+    <File Path="Problem1.cpp"/>
+    <File Path="Problem1.fmx"/>
+    <File Path="Problem1.h"/>
+    <File Path="Problem2.cpp"/>
+    <File Path="Problem2.cpp"/>
+    <File Path="Problem2.fmx"/>
+    <File Path="Problem2.h"/>
+    <File Path="Problem3.cpp"/>
+    <File Path="Problem3.cpp"/>
+    <File Path="Problem3.fmx"/>
+    <File Path="Problem3.h"/>
+    <File Path="Problem4.cpp"/>
+    <File Path="Problem4.cpp"/>
+    <File Path="Problem4.fmx"/>
+    <File Path="Problem4.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

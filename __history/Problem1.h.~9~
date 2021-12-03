@@ -1,0 +1,37 @@
+//---------------------------------------------------------------------------
+
+#ifndef Problem1H
+#define Problem1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Controls.Presentation.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.Types.hpp>
+#include <FMX.Edit.hpp>
+//---------------------------------------------------------------------------
+class TItem1 : public TForm
+{
+__published:	// IDE-managed Components
+	TCircle *Circle1;
+	TCircle *Circle2;
+	TCircle *Circle3;
+	TButton *End;
+	TLabel *Free;
+	TButton *Button1;
+	TButton *Button2;
+	TLabel *Label1;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TEdit *Edit3;
+	void __fastcall EndClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TItem1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TItem1 *Item1;
+//---------------------------------------------------------------------------
+#endif
