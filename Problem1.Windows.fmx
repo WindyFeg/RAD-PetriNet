@@ -1,0 +1,9 @@
+inherited Item1_Windows: TItem1_Windows
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {04070000000000000004000000}
+  end
+  inherited Label10: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end

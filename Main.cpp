@@ -7,6 +7,8 @@
 #include "Problem2.h"
 #include "Problem3.h"
 #include "Problem4.h"
+#include "Unit2.h"
+
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -30,7 +32,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button4Click(TObject *Sender)
 {
-    Item4->Show();
+	Item4->Show();
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button3Click(TObject *Sender)
@@ -38,3 +40,16 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 	Item3->Show();
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+       info->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::tEndClick(TObject *Sender)
+{
+	 help->Text = "Click on problems button to use!" ;
+}
+//---------------------------------------------------------------------------
+

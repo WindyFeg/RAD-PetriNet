@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+//---------------------------------------------------------------------------
+class Tinfo : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall Tinfo(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE Tinfo *info;
+//---------------------------------------------------------------------------
+#endif

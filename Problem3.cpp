@@ -21,6 +21,11 @@ __fastcall TItem3::TItem3(TComponent* Owner)
 
 void __fastcall TItem3::Button3Click(TObject *Sender)
 {
+    n.nP = 0;
+	 n.nT = 0;
+	 n.p.clear();
+     n.t.clear();
+
 	 pFree3->Text = FreeEdit->Text;
 	 pDocu3->Text = DocuEdit->Text;
 	 pBusy3->Text = BusyEdit->Text;
@@ -68,6 +73,8 @@ void __fastcall TItem3::endClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[2]->firing();
 
+	Output = n.getMarking();
+
 	int free = Output[0];
 	int wait = Output[1];
 	int inside = Output[2];
@@ -76,12 +83,21 @@ void __fastcall TItem3::endClick(TObject *Sender)
 	int doc = Output[5];
 
 
+
+
 	pFree3->Text = free;
 	pDocu3->Text = doc;
 	pBusy3->Text = busy;
 	pWait3->Text = wait;
 	pInside3->Text = inside;
 	pDone3->Text = done;
+
+	FreeEdit->Text = pFree3->Text;
+	 DocuEdit->Text = pDocu3->Text;
+	 BusyEdit->Text = pBusy3->Text;
+	 WaitEdit->Text = pWait3->Text;
+	 InsideEdit->Text = pInside3->Text;
+	 DoneEdit->Text = pDone3->Text;
 }
 
 //---------------------------------------------------------------------------
@@ -92,6 +108,8 @@ void __fastcall TItem3::tStartClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[0]->firing();
 
+	Output = n.getMarking();
+
 	int free = Output[0];
 	int wait = Output[1];
 	int inside = Output[2];
@@ -100,12 +118,21 @@ void __fastcall TItem3::tStartClick(TObject *Sender)
 	int doc = Output[5];
 
 
+
+
 	pFree3->Text = free;
 	pDocu3->Text = doc;
 	pBusy3->Text = busy;
 	pWait3->Text = wait;
 	pInside3->Text = inside;
 	pDone3->Text = done;
+
+    FreeEdit->Text = pFree3->Text;
+	 DocuEdit->Text = pDocu3->Text;
+	 BusyEdit->Text = pBusy3->Text;
+	 WaitEdit->Text = pWait3->Text;
+	 InsideEdit->Text = pInside3->Text;
+	 DoneEdit->Text = pDone3->Text;
 }
 
 //---------------------------------------------------------------------------
@@ -116,6 +143,8 @@ void __fastcall TItem3::tChangeClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[1]->firing();
 
+    Output = n.getMarking();
+
 	int free = Output[0];
 	int wait = Output[1];
 	int inside = Output[2];
@@ -124,12 +153,21 @@ void __fastcall TItem3::tChangeClick(TObject *Sender)
 	int doc = Output[5];
 
 
+
+
 	pFree3->Text = free;
 	pDocu3->Text = doc;
 	pBusy3->Text = busy;
 	pWait3->Text = wait;
 	pInside3->Text = inside;
 	pDone3->Text = done;
+
+    FreeEdit->Text = pFree3->Text;
+	 DocuEdit->Text = pDocu3->Text;
+	 BusyEdit->Text = pBusy3->Text;
+	 WaitEdit->Text = pWait3->Text;
+	 InsideEdit->Text = pInside3->Text;
+	 DoneEdit->Text = pDone3->Text;
 }
 
 //---------------------------------------------------------------------------

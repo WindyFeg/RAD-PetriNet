@@ -24,28 +24,28 @@ object Item2: TItem2
   end
   object pWait: TCircle
     Position.X = 80.000000000000000000
-    Position.Y = 208.000000000000000000
+    Position.Y = 248.000000000000000000
     Size.Width = 50.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
   end
   object pInside: TCircle
-    Position.X = 280.000000000000000000
-    Position.Y = 208.000000000000000000
+    Position.X = 288.000000000000000000
+    Position.Y = 248.000000000000000000
     Size.Width = 50.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
   end
   object pDone: TCircle
-    Position.X = 472.000000000000000000
-    Position.Y = 208.000000000000000000
+    Position.X = 504.000000000000000000
+    Position.Y = 248.000000000000000000
     Size.Width = 50.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
   end
   object tStart: TButton
-    Position.X = 176.000000000000000000
-    Position.Y = 208.000000000000000000
+    Position.X = 184.000000000000000000
+    Position.Y = 248.000000000000000000
     Size.Width = 55.000000000000000000
     Size.Height = 55.000000000000000000
     Size.PlatformDefault = False
@@ -54,8 +54,8 @@ object Item2: TItem2
     OnClick = tStartClick
   end
   object tChange: TButton
-    Position.X = 376.000000000000000000
-    Position.Y = 208.000000000000000000
+    Position.X = 392.000000000000000000
+    Position.Y = 248.000000000000000000
     Size.Width = 55.000000000000000000
     Size.Height = 55.000000000000000000
     Size.PlatformDefault = False
@@ -109,8 +109,8 @@ object Item2: TItem2
     Position.Y = 360.000000000000000000
   end
   object Label2: TLabel
-    Position.X = 96.000000000000000000
-    Position.Y = 192.000000000000000000
+    Position.X = 88.000000000000000000
+    Position.Y = 232.000000000000000000
     Size.Width = 33.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
@@ -118,8 +118,8 @@ object Item2: TItem2
     TabOrder = 12
   end
   object Label3: TLabel
-    Position.X = 288.000000000000000000
-    Position.Y = 192.000000000000000000
+    Position.X = 296.000000000000000000
+    Position.Y = 232.000000000000000000
     Size.Width = 33.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
@@ -127,8 +127,8 @@ object Item2: TItem2
     TabOrder = 9
   end
   object labeldone: TLabel
-    Position.X = 480.000000000000000000
-    Position.Y = 192.000000000000000000
+    Position.X = 512.000000000000000000
+    Position.Y = 232.000000000000000000
     Size.Width = 33.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
@@ -146,30 +146,154 @@ object Item2: TItem2
     OnClick = Button3Click
   end
   object pWait2: TLabel
-    Position.X = 96.000000000000000000
-    Position.Y = 224.000000000000000000
-    Size.Width = 33.000000000000000000
+    Position.X = 80.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 49.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
     Text = '0'
     TabOrder = 22
   end
   object pInside2: TLabel
-    Position.X = 296.000000000000000000
-    Position.Y = 224.000000000000000000
-    Size.Width = 33.000000000000000000
+    Position.X = 288.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 49.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
     Text = '0'
     TabOrder = 21
   end
   object pDone2: TLabel
-    Position.X = 488.000000000000000000
-    Position.Y = 224.000000000000000000
-    Size.Width = 33.000000000000000000
+    Position.X = 504.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 49.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
     Text = '0'
     TabOrder = 20
+  end
+  object Line1: TLine
+    LineType = Diagonal
+    Position.X = 128.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line2: TLine
+    LineType = Diagonal
+    Position.X = 240.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line3: TLine
+    LineType = Diagonal
+    Position.X = 336.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line4: TLine
+    LineType = Diagonal
+    Position.X = 448.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label9: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'Input your initial marking in to each place below and click on S' +
+      'et marking to set them, then chose transitions  that you want to' +
+      ' firing. '
+    TabOrder = 48
+  end
+  object Label10: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 136.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'How to use?'
+    TabOrder = 49
+  end
+  object Line16: TLine
+    LineType = Diagonal
+    Position.X = 281.000000000000000000
+    Position.Y = 272.000000000000000000
+    RotationAngle = 90.000000000000000000
+    Size.Width = 8.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line15: TLine
+    LineType = Diagonal
+    Position.X = 280.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 9.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line5: TLine
+    LineType = Diagonal
+    Position.X = 385.000000000000000000
+    Position.Y = 272.000000000000000000
+    RotationAngle = 90.000000000000000000
+    Size.Width = 8.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line6: TLine
+    LineType = Diagonal
+    Position.X = 384.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 9.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line7: TLine
+    LineType = Diagonal
+    Position.X = 177.000000000000000000
+    Position.Y = 272.000000000000000000
+    RotationAngle = 90.000000000000000000
+    Size.Width = 8.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line8: TLine
+    LineType = Diagonal
+    Position.X = 176.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 9.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line9: TLine
+    LineType = Diagonal
+    Position.X = 497.000000000000000000
+    Position.Y = 272.000000000000000000
+    RotationAngle = 90.000000000000000000
+    Size.Width = 8.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line10: TLine
+    LineType = Diagonal
+    Position.X = 496.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 9.000000000000000000
+    Size.Height = 9.000000000000000000
+    Size.PlatformDefault = False
   end
 end

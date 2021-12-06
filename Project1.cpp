@@ -7,11 +7,12 @@
 #pragma hdrstop
 #include <System.StartUpCopy.hpp>
 //---------------------------------------------------------------------------
+USEFORM("Problem4.cpp", Item4);
+USEFORM("Problem3.cpp", Item3);
 USEFORM("Main.cpp", Form1);
 USEFORM("Problem1.cpp", Item1);
 USEFORM("Problem2.cpp", Item2);
-USEFORM("Problem3.cpp", Item3);
-USEFORM("Problem4.cpp", Item4);
+USEFORM("Unit2.cpp", info);
 //---------------------------------------------------------------------------
 extern "C" int FMXmain()
 {
@@ -23,6 +24,7 @@ extern "C" int FMXmain()
 		Application->CreateForm(__classid(TItem2), &Item2);
 		Application->CreateForm(__classid(TItem3), &Item3);
 		Application->CreateForm(__classid(TItem4), &Item4);
+		Application->CreateForm(__classid(Tinfo), &info);
 		Application->Run();
 	}
 	catch (Exception &exception)

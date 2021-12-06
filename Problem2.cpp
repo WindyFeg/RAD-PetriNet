@@ -22,6 +22,11 @@ __fastcall TItem2::TItem2(TComponent* Owner)
 
 void __fastcall TItem2::Button3Click(TObject *Sender)
 {
+    n.nP = 0;
+	 n.nT = 0;
+	 n.p.clear();
+     n.t.clear();
+
 	pWait2->Text = WaitEdit->Text;
 	 pInside2->Text = InsideEdit->Text;
 	 pDone2->Text = DoneEdit->Text;
@@ -55,13 +60,21 @@ void __fastcall TItem2::tStartClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[0]->firing();
 
+    Output = n.getMarking();
+
 	int a = Output[0];
 	int b = Output[1];
 	int c = Output[2];
 
+
+
 	pWait2->Text = a;
 	pInside2->Text = b;
 	pDone2->Text = c;
+
+	WaitEdit->Text = pWait2->Text;
+	InsideEdit->Text = pInside2->Text;
+	DoneEdit->Text = pDone2->Text;
 }
 //---------------------------------------------------------------------------
 
@@ -71,13 +84,21 @@ void __fastcall TItem2::tChangeClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[1]->firing();
 
+	Output = n.getMarking();
+
 	int a = Output[0];
 	int b = Output[1];
 	int c = Output[2];
 
+
+
 	pWait2->Text = a;
 	pInside2->Text = b;
 	pDone2->Text = c;
+
+    WaitEdit->Text = pWait2->Text;
+	InsideEdit->Text = pInside2->Text;
+	DoneEdit->Text = pDone2->Text;
 }
 //---------------------------------------------------------------------------
 

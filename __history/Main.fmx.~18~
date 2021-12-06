@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Petri Net'
+  ClientHeight = 369
+  ClientWidth = 652
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Problem1'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Problem2'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Problem3'
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Problem4'
+    OnClick = Button4Click
+  end
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 625.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 40.000000000000000000
+    TextSettings.Font.StyleExt = {04070000000000000004000000}
+    TextSettings.FontColor = claChocolate
+    TextSettings.HorzAlign = Center
+    Text = 'PETRI NET'
+    TabOrder = 13
+  end
+end

@@ -10,6 +10,7 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
+#pragma resource ("*.Windows.fmx", _PLAT_MSWINDOWS)
 
 Net n;
 TItem1 *Item1;
@@ -22,8 +23,13 @@ __fastcall TItem1::TItem1(TComponent* Owner)
 
 void __fastcall TItem1::Button3Click(TObject *Sender)
 {
-	 pFree->Text = FreeEdit->Text;
-     pDocu->Text = DocuEdit->Text;
+	 n.nP = 0;
+	 n.nT = 0;
+	 n.p.clear();
+     n.t.clear();
+
+	 pFree->Text =  FreeEdit->Text;
+	 pDocu->Text = DocuEdit->Text;
 	 pBusy->Text = BusyEdit->Text;
 
 
@@ -52,17 +58,20 @@ void __fastcall TItem1::Button3Click(TObject *Sender)
 
 void __fastcall TItem1::tEndClick(TObject *Sender)
 {
+	pFree->Text = "Hello";
 	int* Output;
 	Output = n.getMarking();
 	n.t[0]->firing();
 
-	int a = Output[0];
-	int b = Output[1];
-	int c = Output[2];
+	Output = n.getMarking();
 
-	pFree->Text = a;
-	pDocu->Text = b;
-	pBusy->Text = c;
+	pFree->Text = Output[0];
+	pDocu->Text = Output[1];
+	pBusy->Text = Output[2];
+
+	FreeEdit->Text = pFree->Text;
+	DocuEdit->Text = pDocu->Text;
+	BusyEdit->Text = pBusy->Text;
 }
 //---------------------------------------------------------------------------
 
@@ -73,6 +82,8 @@ void __fastcall TItem1::tStartClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[2]->firing();
 
+    Output = n.getMarking();
+
 	int a = Output[0];
 	int b = Output[1];
 	int c = Output[2];
@@ -80,6 +91,10 @@ void __fastcall TItem1::tStartClick(TObject *Sender)
 	pFree->Text = a;
 	pDocu->Text = b;
 	pBusy->Text = c;
+
+    FreeEdit->Text = pFree->Text;
+	DocuEdit->Text = pDocu->Text;
+	BusyEdit->Text = pBusy->Text;
 }
 //---------------------------------------------------------------------------
 
@@ -89,14 +104,23 @@ void __fastcall TItem1::tChangeClick(TObject *Sender)
 	Output = n.getMarking();
 	n.t[1]->firing();
 
+	 Output = n.getMarking();
+
 	int a = Output[0];
 	int b = Output[1];
 	int c = Output[2];
+
+
 
 	pFree->Text = a;
 	pDocu->Text = b;
 	pBusy->Text = c;
 
+    FreeEdit->Text = pFree->Text;
+	DocuEdit->Text = pDocu->Text;
+	BusyEdit->Text = pBusy->Text;
+
 }
 //---------------------------------------------------------------------------
+
 
